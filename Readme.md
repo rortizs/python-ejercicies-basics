@@ -3,6 +3,9 @@
  -- Versión = Python 3.14.6
  -- IDE para desarrollar = Visual Studio Code
  -- Git (Sistemas de Control de Versiones )
+    --Git el control de versiones de mi código 
+      -- ' git ' # este se usa siempre cuando uses git.
+        -- Paso # 1 : git init  #inicializa el proyecto para comenzar con el control de versiones de tú código
  -- Terminal de windows 
 
  Plugins para IDE
