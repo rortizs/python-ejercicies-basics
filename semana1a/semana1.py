@@ -32,3 +32,51 @@ print(f"Solicitante registrado: {requester_name}") # print() es una función que
 age = int(input("Edad del solicitante: ")) # int() es una función que convierte un valor a tipo de dato entero
 print(f"Edad del solicitante: {age}") # print() es una función que permite mostrar datos en pantalla, f"" es una cadena de formato que permite insertar variables dentro de la cadena
 
+# Limpieza de cadenas
+raw_priority =  " alta " # cadena con espacios en blanco al inicio y al final
+priority = raw_priority.strip().upper() # strip() es una función que elimina los espacios en blanco al inicio y al final de la cadena, upper() es una función que convierte la cadena a mayúsculas
+print(priority) # print() es una función que permite mostrar datos en pantalla, f"" es una cadena de formato que permite insertar variables dentro de la cadena
+#resultado esperado: ALTA
+
+# Metodos de cadenas
+#strip() #elimina los espacios en blanco al inicio y al final de la cadena
+#upper() #convierte la cadena a mayúsculas 
+#lower() #convierte la cadena a minúsculas 
+name_upper = requester_name.upper() # upper() es una función que convierte la cadena a mayúsculas
+name_lower = requester_name.lower() # lower() es una función que convierte la cadena a min
+
+
+# Condiciones y operadores
+priority = "ALTA" 
+if priority == "ALTA": # if es una estructura de control que permite ejecutar un bloque de código si se cumple una condición
+    print("El ticket debe antenderse con urgencia") # print() es una función que permite mostrar datos en pantalla, f"" es una cadena de formato que permite insertar variables dentro de la cadena
+else: # else es una estructura de control que permite ejecutar un bloque de código si no se cumple la condición del if
+    print("El ticket puede seguir el flujo normal") # print() es una función que permite mostrar datos en pantalla, f"" es una cadena de formato que permite insertar variables dentro de la cadena
+    
+# condicon negativa
+priority = "BAJA"
+if priority != "ALTA": # if es una estructura de control que permite ejecutar un bloque de código si se cumple una condición, != es un operador de comparación que significa "diferente a"
+    print("El ticket puede seguir el flujo normal") # print() es una función que permite mostrar datos en pantalla, f"" es una cadena de formato que permite insertar variables dentro de la cadena   
+else: # else es una estructura de control que permite ejecutar un bloque de código si no se cumple la condición del if
+    print("El ticket debe antenderse con urgencia") # print() es una función que permite mostrar datos en pantalla, f"" es una cadena de formato que permite insertar variables dentro de la cadena
+  
+#diferencia ente == y =, == es un operador de comparación que significa "igual a", = es un operador de asignación que significa "asignar un valor a una variable"
+
+# Listas y diccionarios
+# Un ticket temporal puede representarse como un diccionario:
+ticket = {
+    "id_ticket": 1, # id del ticket, tipo de dato entero
+    "requester": "Ana López", # nombre del solicitante, tipo de dato string
+    "priority": "ALTA", # prioridad del ticket, tipo de dato string
+    "status": "ABIERTO" # estado del ticket, tipo de dato string
+}
+
+# varios tickets pueden guardarse en una lista:
+tickets = []
+tickets.append(ticket) # append() es una función que permite agregar un elemento al final de la lista
+
+#ciclos en python 
+for ticket in tickets: # for es una estructura de control que permite ejecutar un bloque de código varias veces, ticket es una variable que representa cada elemento de la lista tickets
+  print(ticket["id"], ticket["requester"], ticket["priority"], ticket["status"]) # print() es una función que permite mostrar datos en pantalla, f"" es una cadena de formato que permite insertar variables dentro de la cadena
+  
+# funcinoes en python
