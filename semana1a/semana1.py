@@ -80,3 +80,17 @@ for ticket in tickets: # for es una estructura de control que permite ejecutar u
   print(ticket["id"], ticket["requester"], ticket["priority"], ticket["status"]) # print() es una función que permite mostrar datos en pantalla, f"" es una cadena de formato que permite insertar variables dentro de la cadena
   
 # funcinoes en python
+def normalize_priority(raw_priority: str) -> str: # def es una palabra reservada que permite definir una función, normalize_priority es el nombre de la función, raw_priority es un parámetro de la función, : str indica que el parámetro es de tipo string, -> str indica que la función devuelve un valor de tipo string
+    """Normaliza la prioridad del ticket""" # """ """ es un comentario de varias líneas que describe la función
+    return raw_priority.strip().upper() # return es una palabra reservada que permite devolver un valor desde la función, strip() es una función que elimina los espacios en blanco al inicio y al final de la cadena, upper() es una función que convierte la cadena a mayúsculas
+
+#Errores Básicos
+#Un programa profresional no debe aceptar cualquier tipo de dato, por ejemplo, si se espera un número entero, no se debe aceptar un string. Para evitar errores, se pueden usar condicionales y excepciones.
+# ejemplo Una descripcion vacia
+description = input("Descripción del ticket: ").strip() # input() es una función que permite al usuario ingresar datos por teclado, strip() es una función que elimina los espacios en blanco al inicio y al final de la cadena
+
+if description == "": # if es una estructura de control que permite ejecutar un bloque de código si se cumple una condición, == es un operador de comparación que significa "igual a"
+    print("Error: La descripción del ticket no puede estar vacía") # print() es una función que permite mostrar datos en pantalla, f"" es una cadena de formato que permite insertar variables dentro de la cadena
+else: # else es una estructura de control que permite ejecutar un bloque de código si no se cumple la condición del if
+    print("Descripcion aceptada") # print() es una función que permite mostrar datos en pantalla, f"" es una cadena de formato que permite insertar variables dentro de la cadena
+
