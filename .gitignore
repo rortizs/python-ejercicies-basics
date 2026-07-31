@@ -1,5 +1,36 @@
+# Material docente privado
+[Ss][Oo][Ll][Uu][Cc][Ii][Oo][Nn][Aa][Rr][Ii][Oo]_*
+[Cc][Uu][Aa][Dd][Ee][Rr][Nn][Ii][Ll][Ll][Oo]_*.md
+[Cc][Uu][Aa][Dd][Ee][Rr][Nn][Ii][Ll][Ll][Oo]_*.docx
+[Cc][Uu][Aa][Dd][Ee][Rr][Nn][Ii][Ll][Ll][Oo]_*.pdf
+**/[Ss][Oo][Ll][Uu][Cc][Ii][Oo][Nn][Aa][Rr][Ii][Oo]_*
+**/[Cc][Uu][Aa][Dd][Ee][Rr][Nn][Ii][Ll][Ll][Oo]_*.docx
+**/[Cc][Uu][Aa][Dd][Ee][Rr][Nn][Ii][Ll][Ll][Oo]_*.pdf
+[Vv][Aa][Rr][Ii][Aa][Nn][Tt][Ee][Ss]_[Dd][Oo][Cc][Ee][Nn][Tt][Ee]/
+[Mm]aterial_[Dd]ocente_[Pp]rivado/
+[Mm]aterial_[Pp]rivado/
+backups/
+backup-*/
+
+# Herramientas SDD/skill-registry (no forman parte del material académico)
+.atl/
+
+# Python
 __pycache__/
-*.pyc
-~$*.docx
-~$*.doc
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Sistema y editores
 .DS_Store
+Thumbs.db
+~$*.doc
+~$*.docx
+*.swp
+.idea/
+.vscode/
+.codegraph/

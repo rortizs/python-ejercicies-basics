@@ -1,56 +1,20 @@
-## Estructura de ejercicios
+# Programacion II: material de apoyo
 
-Cada carpeta corresponde a un tema visto en clase, en orden. Todos los
-archivos son código de ejemplo/referencia trabajado en vivo — para
-practicar, copien el archivo y modifíquenlo.
+Este repositorio es el respaldo cronologico del material de apoyo trabajado en clase. Los cuadernillos, actividades, rubricas y entregas se publican exclusivamente en Canvas UMG.
 
-| Carpeta | Tema |
-|---|---|
-| `cuadernillo_0/` | Fundamentos de Python: print, variables, tipos, condicionales, ciclos, listas, diccionarios, funciones |
-| `cuadernillo_0_poo/` | Introducción a Programación Orientada a Objetos: clases, objetos, `__init__`, encapsulamiento |
-| `cuadernillo_1/` | Ejercicios de la Semana 1 (consola y programación modular) sobre el proyecto HelpDesk EDU |
-| `cuadernillo_1/variantes_docente/` | Código de las primeras clases en vivo |
-| `cuadernillo_2/` | Ejercicios de POO aplicados a HelpDesk EDU (clase `Ticket`, `GestorTickets`) |
-| `cuadernillo_0_uml_relaciones/` | Relaciones entre clases: composición, agregación, herencia, polimorfismo |
-| `cuadernillo_3/` | UML y Proyecto Integrador: clase `Comentario`, `Tecnico`, `Solicitante`, `GestorUsuarios` |
-| `cuadernillo_extra_clases_abstractas/` | Clases abstractas (`ABC`, `abstractmethod`) |
-| `cuadernillo_4/` | Persistencia y APIs: SQL, SQLAlchemy, FastAPI, y cómo se conecta todo con el proyecto real `help_desk_EDU` |
-| `semana1a/` | Notas de clase con comentarios línea por línea sobre los conceptos básicos |
+## Antes de comenzar
 
-## Leeme Primero
- -- Por qué Python?
- -- Versión = Python 3.14.6
- -- IDE para desarrollar = Visual Studio Code
- -- Git (Sistemas de Control de Versiones )
-    --Git el control de versiones de mi código 
-      -- ' git ' # este se usa siempre cuando uses git.
-        -- Paso # 1 : git init  #inicializa el proyecto para comenzar con el control de versiones de tú código
- -- Terminal de windows 
+- Requisito: Python 3.12 o superior. Se recomienda Python 3.13 para trabajar con un entorno uniforme.
+- Los ejemplos ayudan a repasar conceptos; no sustituyen resolver las actividades.
+- Practica ramas y comandos de Git en [Learn Git Branching](https://gitlearning.edutainment.edu.gt).
 
- Plugins para IDE
-  -- Django
-  -- GitLens
-  -- Python 
-  -- Python Extended
-  -- Python Extended Pack
-  -- Pylance
-  -- Python Indent
+## Recorrido
 
+| Semana | Martes | Jueves | Alcance |
+| --- | --- | --- | --- |
+| [01](semana_01/) | Fundamentos de Python | Colecciones, ciclos y modularidad | Consola y programacion modular |
+| [02](semana_02/) | Clases y objetos | Validacion, encapsulamiento y abstraccion | Introduccion a POO |
+| [03](semana_03/) | Notacion UML | Multiplicidad y maestro-detalle | UML puro |
+| [04](semana_04/) | Notacion y criterios | Ejemplos completos | Relaciones UML entre clases |
 
-Schema Project firt template
-  --Directory [ejercices]
-     --Directory [one]
-       --semana1.py
-       --semana2.py
-
-## Git and Github from development first
-  -git init #este comando permite inicializar nuestro proyecto el cual llamaremos
-  repositorio.
-  -git status #este comando permite mostrar que archivos o directorios aun no estam
-  dentro del repositorio. 
-  -git add . (agregar todo ) or git add .md, add .py, add semana1/
-  -- git commit -m "Descripción del commit que se hace"
-  -- git push #este comando me permite subir a mi repositorio remoto en la rama respectiva mis archivos.
-  
-    --Branches (rama) --> Main o Master 
-        -- branch --> develeper
+Consultá primero el `README.md` de cada semana y luego ejecutá los ejemplos con `python3 nombre_del_archivo.py`. GitHub conserva el respaldo del material trabajado en clase; Canvas UMG sigue siendo el canal oficial para cuadernillos, actividades, rubricas y entregas.
